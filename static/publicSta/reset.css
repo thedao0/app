@@ -1,7 +1,7 @@
 ﻿@charset "utf-8";
 
 
-@font-face {
+/* @font-face {
     font-family: "PingFangBold";
     src: url('font/PingFangBold.ttf') format('truetype');
     font-weight: normal;
@@ -35,7 +35,7 @@
     src: url('font/PingFangMedium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-   }
+   } */
 
 /*样式重置 reset */
 *{ margin:0; padding:0; }
