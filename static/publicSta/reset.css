@@ -1,6 +1,41 @@
 ﻿@charset "utf-8";
 
 
+/* @font-face {
+    font-family: "PingFangBold";
+    src: url('font/PingFangBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+   @font-face {
+    font-family: "PingFangHeavy";
+    src: url('font/PingFangHeavy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+   @font-face {
+    font-family: "PingFangLight";
+    src: url('font/PingFangLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+   @font-face {
+    font-family: "PingFangRegular";
+    src: url('font/PingFangRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+   
+   @font-face {
+    font-family: "PingFangMedium";
+    src: url('font/PingFangMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   } */
 
 /*样式重置 reset */
 *{ margin:0; padding:0; }
@@ -45,7 +80,7 @@ textarea{
     overflow:auto;/*在浏览器默认状态下没有滚动条*/
 }
 body{
-    font-family: Arial,"微软雅黑", Helvetica, sans-serif;
+    font-family: PingFangBold,PingFangMedium,PingFangRegular,PingFangLight,PingFangHeavy,Arial,"微软雅黑", Helvetica, sans-serif;
     font-size:12px;
     line-height:1;
     background-color: rgba(225, 228, 243, 0.9);
